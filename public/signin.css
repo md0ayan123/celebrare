@@ -1,0 +1,151 @@
+.page{
+    /* border: 2px solid red; */
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-evenly;
+   
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+    justify-content: space-between;
+}
+.header{
+    /* border: 2px solid red; */
+    margin-top: 10px;
+    display: flex;
+    /* border: 2px solid red; */
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.enrollnow{
+    color: #528400;
+    border:1px solid grey;
+    border-radius: 12px;
+    padding: 6px;
+  
+
+}
+.companyname{
+    /* border: 2px solid red; */
+   align-items: center;
+}
+.welcomepage{
+    /* margin-top:80px; */
+    align-items: center;
+    /* border: 2px solid red; */
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   /* justify-content: center; */
+}
+.myaccount{
+    margin: 0px;
+    padding: 0px;
+    /* border: 2px solid red; */
+    text-align: center;
+    /* display: flex; */
+    justify-content: center;
+h1{
+    font-size: 45px;
+}
+}
+.inputbox{
+    border-radius: 9px;
+     margin-top: 30px;
+    width: 400px;
+    display: flex;
+    gap: 9px;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    
+}
+.name{
+  padding: 12px;
+  border:2px solid #528400;
+  border-radius: 9px;
+}
+.email{
+  padding: 12px;
+  border:2px solid #528400;
+  border-radius: 9px;
+}
+.onlineid{
+    padding: 12px;
+   border:2px solid #528400;
+   border-radius: 9px;
+}
+.password{
+    padding: 12px;
+    border: 2px solid #528400;
+    border-radius: 9px;
+}
+.checkboxinput{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 9px;
+    width: 400px;
+    margin-top: 12px;
+    /* border: 2px solid red; */
+}
+input[type='checkbox']:checked {
+    background-color:white;
+  }
+input[type='checkbox']:checked:after {
+    content: '\2713';
+    color:#528400;
+  }
+  input[type='checkbox']{
+  
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    width: 20px !important;
+    height: 20px !important;
+    appearance:none;
+    border-radius:15%;
+    border: 1px solid grey;
+    box-shadow: none;
+    font-size: 1em;
+  }
+  .signinbtn{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+  }
+  .btn{
+    font-size: 18px;
+    padding: 4px;
+    background-color: #528400  ;
+    color: white;
+    border-radius: 26px;
+    margin-top: 10px;
+   width: 400px;
+  
+
+  }
+  .house{
+    margin-top: auto;
+    gap: 20px;
+   /* align-items: center; */
+   text-align: center;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: row;
+
+  }
+
+  .Housing{
+    display: flex;
+    border-radius: 30px;
+  }

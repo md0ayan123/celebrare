@@ -1,0 +1,245 @@
+
+.page{
+  position: relative;
+    /* border: 2px solid red; */
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-evenly;
+   
+}
+
+.leftside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header{
+    margin-top: 10px;
+    display: flex;
+   
+    justify-content: space-between;
+}
+
+#logo{
+
+  transform: translate(40, 40) rotate(0deg) scale(1); 
+  transition: transform 1s ease;
+}
+
+
+
+.move-rotate{
+  transform: translate(40vw, 40vh) rotate(360deg) scale(1);
+  transition: transform 1s ease;
+    
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.logoimg{
+  border:2px solid rgb(1, 16, 16);
+  border-radius: 28px;
+  background-color: #fff;
+  padding: 12px;  
+  transition: transform 1s ease;
+}
+/* #loginimg{
+  
+} */
+#welcompage{
+  transition: transform 1s ease;
+}
+.scale{
+  transform: scale(0);
+}
+
+
+#Housing{
+  width: 600px;
+  height: 700px;
+  object-fit: fill;
+  overflow: hidden;
+  border-radius: 30px;
+}
+
+.companyname{
+ 
+   align-items: center;
+}
+.newCustomer{
+  color: grey;
+  text-decoration: none !important ;
+}
+.enrollnow{
+    color: #528400;
+    border:1px solid grey;
+    border-radius: 12px;
+    padding: 9px;
+}
+.enrollsection{
+    display: flex;
+      align-items: center;
+      gap: 12px;
+
+}
+.welcomepage{
+    align-items: center;  
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  
+}
+.myaccount{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    justify-content: center;
+h1{
+    font-size: 45px;
+}
+
+}
+.inputbox{
+    border-radius: 9px;
+     margin-top: 30px;
+    width: 400px;
+    display: flex;
+    gap: 9px;
+    flex-direction: column;
+    
+}
+
+.onlineid{
+    padding: 12px;
+   border:2px solid #528400;
+   border-radius: 9px;
+}
+.password{
+    padding: 12px;
+    border: 2px solid #528400;
+    border-radius: 9px;
+}
+
+.checkboxinput{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 9px;
+    width: 400px;
+    margin-top: 12px;
+  
+}
+input[type='checkbox']:checked {
+    background-color:white;
+  }
+input[type='checkbox']:checked:after {
+    content: '\2713';
+    color:#528400;
+  }
+  input[type='checkbox']{
+  
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    width: 20px !important;
+    height: 20px !important;
+    appearance:none;
+    border-radius:15%;
+    border: 1px solid grey;
+    box-shadow: none;
+    font-size: 1em;
+  }
+  .loginbtn{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+  }
+  .btn{
+    font-size: 18px;
+    padding: 4px;
+    background-color: #528400  ;
+    color: white;
+    border-radius: 26px;
+    margin-top: 10px;
+   width: 400px;
+  
+
+  }
+  .forgot{
+    display: flex;
+    margin-top: 12px;
+    justify-content: center;
+   
+    padding: 12px;
+    color: #528400;
+    gap: 20px;
+  }
+
+  .house{
+    margin-top: auto;
+    gap: 20px;
+   text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: row;
+
+  }
+
+  .Housing{
+  width: 600px;
+  height: 700px;
+  object-fit: cover;    
+  border-radius: 30px;
+  }
+  .Housing2{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 30px;
+  }
+  .logoimage{
+    display: none;
+    position: absolute;
+    border:2px solid rgb(1, 16, 16);
+    border-radius: 28px;
+    background-color: #fff;
+    padding: 12px; 
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 30px; 
+    left: 600px;
+    
+
+  }
+ 
+  .scale-down{
+   display: block;
+   transform:scale(0);
+
+  }
+  .scale-up{
+    display: block;
+    transform:scale(1);
+    transition: transform 1s ease;
+  }
+  .scaledown{
+   display: block;
+   transform:scale(0);
+
+  }
+  .scaleup{
+    display: block;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:scale(1);
+    transition: transform 1s ease;
+  }
